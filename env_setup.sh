@@ -23,6 +23,3 @@ sudo apt-get install -y python-pip
 sudo ln -s /usr/lib/`uname -i`-linux-gnu/libfreetype.so /usr/lib/
 sudo ln -s /usr/lib/`uname -i`-linux-gnu/libjpeg.so /usr/lib/
 sudo ln -s /usr/lib/`uname -i`-linux-gnu/libz.so /usr/lib/
-
-echo -e "pref(\"network.proxy.http\", \"64.62.233.67\");" | sudo tee -a /usr/lib/firefox/defaults/pref/vendor-gre.js 
-echo -e "pref(\"network.proxy.http_port\", 80);" | sudo tee -a /usr/lib/firefox/defaults/pref/vendor-gre.js 
