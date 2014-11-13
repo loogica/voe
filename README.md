@@ -57,7 +57,7 @@ Copie o dns público e modifique o arquivo `.env`. Esse passo pode ser automatiz
 ### Montando os Workers
 
 ```sh
-$ python setup_instances.py worers 2
+$ python setup_instances.py workers 2
 ```
 
 O comando acima cria 2 máquinas `workers` que serão os responsáveis por bsucar a informação. O comando `tail -f worker.log` deverá exibir informações sobre o andamento do processo. 
